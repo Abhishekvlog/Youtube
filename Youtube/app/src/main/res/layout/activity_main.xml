@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#079527"
+        android:padding="100dp" />
+    <TextView
+        android:layout_width="18.41dp"
+        android:layout_height="15.41dp"
+        android:drawableEnd="@drawable/ic_vector__4_"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="12dp"
+        />
+    <TextView
+        android:layout_width="18.41dp"
+        android:layout_height="15.41dp"
+        android:drawableEnd="@drawable/ic_vector__5_"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="360dp"
+        />
+    <TextView
+        android:layout_width="18.41dp"
+        android:layout_height="15.41dp"
+        android:drawableEnd="@drawable/ic_carbon_play_outline"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="190dp"
+        />
+    <TextView
+        android:id="@+id/rectangles"
+        android:layout_width="95dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="15dp"
+        android:drawableEnd="@drawable/rectangle"
+        android:layout_marginTop="250dp" />
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="119dp"
+        android:layout_height="19dp"
+        android:background="#C4C4C4"
+        android:layout_marginTop="260dp"
+        android:layout_marginStart="125dp"
+        />
+
+    <TextView
+        android:id="@+id/view2"
+        android:layout_width="89dp"
+        android:layout_height="15dp"
+        android:background="#C4C4C4"
+        android:layout_marginTop="285dp"
+        android:layout_marginStart="125dp"
+        />
+    <TextView
+        android:id="@+id/view3"
+        android:layout_width="45dp"
+        android:layout_height="11dp"
+        android:background="#C4C4C4"
+        android:layout_marginTop="305dp"
+        android:layout_marginStart="125dp"
+        />
+
+    <Button
+        android:id="@+id/trynow"
+        android:layout_width="157dp"
+        android:layout_height="29dp"
+        android:text="Try Now"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/rectangles"
+        android:background="@color/white"
+        android:textColor="#079527"/>
+    <Button
+        android:layout_width="157dp"
+        android:layout_height="29dp"
+        android:text="Install"
+        android:layout_below="@+id/rectangles"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="220dp"
+        android:background="#079527"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/ovel"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="57dp"
+        android:drawableEnd="@drawable/circle"
+        android:layout_below="@+id/trynow"
+        android:layout_marginTop="59dp"
+
+        />
+
+    <TextView
+        android:id="@+id/ovel1"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="171dp"
+        android:drawableEnd="@drawable/circle"
+        android:layout_below="@+id/trynow"
+        android:layout_marginTop="59dp"
+        />
+    <TextView
+        android:id="@+id/ovel2"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="285dp"
+        android:drawableEnd="@drawable/circle"
+        android:layout_below="@+id/trynow"
+        android:layout_marginTop="59dp"
+        />
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="318dp"
+        android:layout_height="40dp"
+        android:background="#C4C4C4"
+        android:layout_below="@+id/ovel2"
+        android:layout_marginTop="54dp"
+        android:layout_marginStart="23dp"
+        />
+    <TextView
+        android:id="@+id/view4"
+        android:layout_width="278dp"
+        android:layout_height="24dp"
+        android:background="#C4C4C4"
+        android:layout_below="@+id/view1"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="23dp"
+        />
+
+
+</RelativeLayout>
